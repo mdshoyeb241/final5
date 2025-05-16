@@ -10,7 +10,7 @@ dotenv.config({ path: "./config.env" });
 
 app.use(
   cors({
-    origin: [https://frontend-crwk.onrender.com/],
+    origin: ["https://frontend-crwk.onrender.com/"],
     methods: ["POST"],
     credentials: true,
   })
